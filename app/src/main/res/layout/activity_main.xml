@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/index">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_x="0dp"
+        android:layout_y="22dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text=" BIODATAKU"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="141dp"
+        android:layout_height="195dp"
+        android:layout_x="10dp"
+        android:layout_y="153dp"
+        android:src="@drawable/ais" />
+
+    <TextView
+        android:layout_width="392dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="112dp"
+        android:layout_x="4dp"
+        android:layout_y="98dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text=" Nama"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="137dp"
+        android:layout_x="3dp"
+        android:layout_y="118dp"
+        android:gravity="center"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:text=" Raisul Umah Nur"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="175dp"
+        android:layout_x="154dp"
+        android:layout_y="173dp"
+        android:background="@color/colorPrimary"
+        android:text=" NIM"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="200dp"
+        android:layout_x="155dp"
+        android:layout_y="192dp"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:text=" A11.2016.09970"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="230dp"
+        android:layout_x="155dp"
+        android:layout_y="225dp"
+        android:background="@color/colorPrimary"
+        android:text=" Tempat Tanggal Lahir"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="181dp"
+        android:layout_marginEnd="86dp"
+        android:layout_x="155dp"
+        android:layout_y="247dp"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:text=" Demak, 15 Mei 1998"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="220dp"
+        android:layout_x="154dp"
+        android:layout_y="283dp"
+        android:background="@color/colorPrimary"
+        android:text=" Hobby"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="19dp"
+        android:layout_x="153dp"
+        android:layout_y="301dp"
+        android:paddingBottom="3dp"
+        android:paddingTop="10dp"
+        android:text=" Mendengarkan Musik"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="135dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginStart="0dp"
+        android:layout_x="6dp"
+        android:layout_y="359dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:text="  Alamat"
+
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginStart="0dp"
+        android:layout_x="2dp"
+        android:layout_y="386dp"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="3dp"
+        android:text="Kauman Utara No.30 Bintoro Demak"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="50dp"
+        android:layout_x="116dp"
+        android:layout_y="426dp"
+        android:background="@android:color/holo_green_light"
+        android:onClick="callnumber"
+        android:text="Phone Number"
+        android:textSize="10dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="25dp"
+        android:layout_x="115dp"
+        android:layout_y="454dp"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="openurl"
+        android:text="Site Address"
+        android:textSize="10dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_x="116dp"
+        android:layout_y="481dp"
+        android:background="@android:color/holo_purple"
+        android:onClick="showmap"
+        android:text="Location"
+        android:textSize="8dp" />
+
+</AbsoluteLayout>
